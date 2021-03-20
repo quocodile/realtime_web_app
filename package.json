@@ -1,0 +1,25 @@
+{
+  "name": "realtime_chat_app",
+  "version": "1.0.0",
+  "description": "practice with websocket and mongodb native drivers",
+  "main": "config.js",
+  "dependencies": {
+    "mongodb": "^3.6.5",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocodile/realtime_web_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quocodile/realtime_web_app/issues"
+  },
+  "homepage": "https://github.com/quocodile/realtime_web_app#readme"
+}
