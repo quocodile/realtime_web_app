@@ -1,5 +1,5 @@
 socketIO = require("socket.io");
-const http = require("http")
+const http = require("https")
 const mongodb = require("mongodb");
 const config = require("./config");
 
@@ -21,7 +21,7 @@ io.on('connection', (socket) => {
   });
 }); 
 
-server.listen(8080);
+server.listen(3100);
 
 function get_mongo_client() {
   const username = config.username();
